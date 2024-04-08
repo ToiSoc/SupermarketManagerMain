@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>超市进销存管理系统</title>
+    <title>超市管理信息系统</title>
 
     <!-- Bootstrap -->
     <link href="${pageContext.request.contextPath }/statics/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form action="dologin" method="post">
-              <h1>超市进销存管理系统</h1>
+              <h1>超市管理信息系统</h1>
               <h2>员工入口</h2>
               <div>
                 <input type="text" class="form-control" name="staffid" placeholder="请输入用户名" required="" />
@@ -51,7 +51,7 @@
 
               <div class="separator">
                 <div>
-                  <p>@2018 Binvor </p>
+                  <p>@2024 Binvor </p>
                 </div>
               </div>
             </form>

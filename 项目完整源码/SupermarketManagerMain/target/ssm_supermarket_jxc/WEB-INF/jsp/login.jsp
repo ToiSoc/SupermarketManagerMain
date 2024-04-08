@@ -10,7 +10,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>超市进销存管理系统</title>
+<title>超市管理信息系统</title>
 <style type="text/css">
 .login-page {
 	width: 360px;
@@ -152,7 +152,7 @@ p.loginType label>input{
 </head>
 <body>
 	<div id="wrapper" class="login-page">
-		<p class="center">超市进销存管理系统</p> 
+		<p class="center">超市管理信息系统</p> 
 		<div id="login_form" class="form">
 			<form class="login-form" method="post" id="loginForm" name="loginForm">
 				<input type="text" placeholder="用户名" value="" id="loginname" name="loginname" />

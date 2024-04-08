@@ -81,7 +81,7 @@ else{
 /*  校验商品名称*/
 function checkname(){
 	var name=document.getElementById('pname').value;
-   	if(name){
+   	if(name){
 	document.getElementById("demo2").innerHTML=" ";
 	return true;
 }else{
@@ -140,17 +140,17 @@ else{
 /* 校验整个表单 */
 function checkall(){
 			 var inid=checkinid();
-	         var name = checkname();  
-	         var proid=checkproid(); 
-	         var num=checknum(); 
-	         
-	         if(inid&&name&&proid&&num){  
-				 alert("添加成功"); 
-	             return true;
-	         }else{  
+	         var name = checkname();  
+	         var proid=checkproid(); 
+	         var num=checknum(); 
+	         
+	         if(inid&&name&&proid&&num){  
+				 alert("添加成功"); 
+	             return true;
+	         }else{  
 		 			alert("添加失败，请重新填写数据");
-	             return false;
+	             return false;
 	 			
-	         }  
+	         }  
 }
 </script>
